@@ -1,4 +1,4 @@
-# Getting used to visual development
+# Getting used to visual software development
 
 Recently I've started using a low-code platform Mendix to produce software.
 I wasn't planning on it, but an opportunity presented itself and I was curious to learn more about this new (to me) thing.
@@ -11,7 +11,7 @@ For backend though, it's a different story.
 
 ## How does it actually work?
 
-Think about this: when you need to code something complex, you normally don't start writing code write away.
+Think about this: when you need to code something complex, you normally don't start writing code right away.
 You think about it, draw something down on a whiteboard or a piece of paper, identify some patterns, and only then start coding.
 
 With Mendix, the process feels very similar, except that the last 'coding' part is very different.
@@ -70,6 +70,7 @@ They are both good, and both are visualizations of a process that happens in the
 1. As it is still an abstraction over regular code, inevitably you do lose some flexibility, same as what happens when passing from assembly to C or from C to Java.
 1. Given that the 'visual' model needs to be translated to machine-runnable code, it will be slower to run. (though I suspect there are many optimizations in Mendix to make it as fast as possible)
 1. As of 2024, low-code community is not that big compared to the big programming languages, so you might not get help soon if you need it.
+<br/>For Mendix, there is the Mendix forum and the marketplace, where you can find many third-party addons, but apart from that there is not much else.
 1. It might be easier to do static code analysis. 
 <br/>This depends on the low-code platform. With some, if there is no textual representation of the flow, it will be more difficult to develop tools that analyse it. (this might change with AI but it will take time)
 

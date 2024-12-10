@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/idle-fingers.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /*!
 * Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
 * Copyright 2013-2023 Start Bootstrap
@@ -10932,8 +10936,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 5rem;
+  width: 5rem;
   background-color: #495057;
   color: #fff !important;
   border-radius: 100%;
@@ -10980,3 +10984,40 @@ section.resume-section .resume-section-content {
   padding: 5px;
   margin-top: -5px;
 }
+
+#blog-post-content img {
+  max-height: 600px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#blog-post-content pre {
+  overflow: visible;
+}
+
+.social-icon svg {
+  font-size: 1.5em;
+}
+
+/* For Github Gist embeds, to make them dark */
+body {
+  font: 16px 'Open Sans', sans-serif;
+}
+body .gist .gist-file {
+  border-color: #555 #555 #444
+}
+body .gist .gist-data {
+  border-color: #555
+}
+body .gist .gist-meta {
+  color: #ffffff;
+  background: #373737; 
+}
+body .gist .gist-meta a {
+  color: #ffffff
+}
+body .gist .gist-data .pl-s .pl-s1 {
+  color: #a5c261
+}
+
