@@ -1,6 +1,6 @@
 # Getting used to visual software development
 
-Recently I've started using a low-code platform Mendix to produce software.
+Recently I've started using a low-code platform [Mendix](https://www.mendix.com/) to produce software.
 I wasn't planning on it, but an opportunity presented itself and I was curious to learn more about this new (to me) thing.
 
 And, to my surprise, I did like it.
