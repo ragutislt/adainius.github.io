@@ -1,8 +1,14 @@
 plugins:
   - jekyll-toc
+  - jekyll-postfiles
 
 toc:
   min_level: 2
   max_level: 2
   item_class: nav-item
   list_class: navbar-nav
+
+collections:
+   posts:
+    output: true
+    permalink: /blog/:title/

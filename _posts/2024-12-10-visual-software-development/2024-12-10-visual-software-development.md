@@ -1,3 +1,7 @@
+---
+layout: default
+toc: true
+---
 # Getting used to visual software development
 
 Recently I've started using a low-code platform [Mendix](https://www.mendix.com/) to produce software.
@@ -22,13 +26,13 @@ Here's how the process looks like in Mendix:
 1. At the end of the microflow, you might return something, or not return anything. You might commit an object to the DB, or signal to the client-side that a page should be closed.
 
 Here are some _activities_ you can add to a mendix microflow:
-![microflow activities](./assets/microflow_activities.png)
+![microflow activities](microflow_activities.png)
 
 There are many more of them and you can even create your own. 
 There are hundreds more in the mendix marketplace to choose from.
 
 And here's a sample microflow:
-![sample microflow](./assets/microflow.png)
+![sample microflow](microflow.png)
 
 Here we simply retrieve an object from the database or create a new one if it doesn't exist.
 It's quite neat and easy-to-understand, even for a non-technical person.

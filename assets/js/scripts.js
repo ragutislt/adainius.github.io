@@ -15,7 +15,11 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Add ids to headings to act as anchors
     document.querySelectorAll("h2")
-        .forEach(item => item.id = item.textContent.toLowerCase().replace(" ", "-").replace("/", "").replace(":", ""));
+        .forEach(item => item.id = item.textContent.toLowerCase()
+            .replace(" ", "-")
+            .replace("/", "")
+            .replace(":", "")
+            .replace("?", ""));
 
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
