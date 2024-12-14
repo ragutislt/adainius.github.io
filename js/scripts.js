@@ -9,6 +9,14 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    // Add required classes for jekyll-toc navbar to appear as a bootstrap navbar
+    document.querySelectorAll("#navbarResponsive .navbar-nav .nav-item a")
+        .forEach(item => item.classList.add("nav-link"));
+
+    // Add ids to headings to act as anchors
+    document.querySelectorAll("h2")
+        .forEach(item => item.id = item.textContent.toLowerCase().replace(" ","-").replace("/","").replace(":",""));
+
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
     if (sideNav) {
