@@ -10968,6 +10968,18 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+
+/* CUSTOM CSS */
+
+#navbarResponsiveLinks .navbar-nav .nav-item .nav-link {
+  color: white;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px; */
+}
+
 /* @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
