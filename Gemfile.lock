@@ -97,6 +97,8 @@ DEPENDENCIES
   jekyll
   jekyll-postfiles
   jekyll-toc
+  kramdown
+  rouge
 
 BUNDLED WITH
    2.5.23

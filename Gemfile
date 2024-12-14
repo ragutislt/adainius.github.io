@@ -5,3 +5,5 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "jekyll-toc"
 gem 'jekyll-postfiles'
+gem "rouge"
+gem "kramdown"

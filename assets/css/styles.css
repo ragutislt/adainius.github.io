@@ -11016,6 +11016,7 @@ section.resume-section .resume-section-content {
 
 #blog-post-comment {
   font-size: 1.1rem;
+  margin-top: 5em;
 }
 
 .social-icon svg {
@@ -11023,9 +11024,6 @@ section.resume-section .resume-section-content {
 }
 
 /* For Github Gist embeds, to make them dark */
-body {
-  font: 16px 'Open Sans', sans-serif;
-}
 body .gist .gist-file {
   border-color: #555 #555 #444
 }

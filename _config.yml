@@ -2,6 +2,13 @@ plugins:
   - jekyll-toc
   - jekyll-postfiles
 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
 toc:
   min_level: 2
   max_level: 2
@@ -9,6 +16,6 @@ toc:
   list_class: navbar-nav
 
 collections:
-   posts:
-    output: true
-    permalink: /blog/:title/
+    posts:
+      output: true
+      permalink: /blog/:title/
