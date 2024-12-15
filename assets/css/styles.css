@@ -10971,6 +10971,12 @@ section.resume-section .resume-section-content {
 
 /* CUSTOM CSS */
 
+#page-top .navbar .navbar-toggler {
+  position: fixed;
+  top: var(--bs-navbar-padding-y);
+  right: 1rem;
+}
+
 #navbarResponsiveLinks .navbar-nav .nav-item .nav-link {
   /* color: white; */
   /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
