@@ -11023,6 +11023,14 @@ section.resume-section .resume-section-content {
   font-size: 1.5em;
 }
 
+#blog-index ul {
+  list-style: none;
+}
+
+#blog-index h2 {
+  font-size: calc(1.475rem + 1.7vw);
+}
+
 /* For Github Gist embeds, to make them dark */
 body .gist .gist-file {
   border-color: #555 #555 #444

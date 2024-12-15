@@ -1,0 +1,17 @@
+---
+layout: default
+title: Aurimas Dainius - Blog
+links_hide_blog: true
+---
+<section class="resume-section" id="blog-index">
+    <div class="resume-section-content">
+        <h1>Latest Posts</h1>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <h2><a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a></h2>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
