@@ -1,6 +1,4 @@
 ---
-layout: blog
-toc: true
 dev-to-link: getting-used-to-visual-software-development-9ip
 ---
 # Getting used to visual software development

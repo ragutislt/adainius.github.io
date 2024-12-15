@@ -30,3 +30,20 @@ collections:
     posts:
       output: true
       permalink: /blog/:title/
+
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "blog_layout"
+      toc: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default_layout"
+      toc: true

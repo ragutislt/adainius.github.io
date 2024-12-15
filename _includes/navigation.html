@@ -1,2 +1,7 @@
-{{ content | toc_only }}
-<!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li> -->
+<ul class="navbar-nav">
+    {% for item in site.data.navigation %}
+        <li class="nav-item"><a href="{{ item.link }}"
+                class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
