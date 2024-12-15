@@ -11011,7 +11011,7 @@ section.resume-section .resume-section-content {
 }
 
 #blog-post-content pre {
-  overflow: visible;
+  overflow: auto;
 }
 
 #blog-post-comment {
