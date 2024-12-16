@@ -40,6 +40,10 @@ GEM
       jekyll (>= 3.8.6, < 5)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-toc (0.19.0)
       jekyll (>= 3.9)
       nokogiri (~> 1.12)
@@ -96,6 +100,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-postfiles
+  jekyll-seo-tag
+  jekyll-sitemap
   jekyll-toc
   kramdown
   rouge

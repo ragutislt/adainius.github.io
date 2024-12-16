@@ -1,6 +1,10 @@
 plugins:
   - jekyll-toc
   - jekyll-postfiles
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+url: https://adainius.com
 
 markdown: kramdown
 highlighter: rouge
