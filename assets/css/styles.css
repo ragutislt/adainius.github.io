@@ -11037,6 +11037,11 @@ section.resume-section .resume-section-content {
   font-size: calc(1.475rem + 1.7vw);
 }
 
+#page-404 {
+  text-align: center;
+  margin-top: 20vh;
+}
+
 /* For Github Gist embeds, to make them dark */
 body .gist .gist-file {
   border-color: #555 #555 #444
