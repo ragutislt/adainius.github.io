@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Aurimas Dainius - Blog</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="../index.html">
+            <span class="d-block d-lg-none">Aurimas Dainius</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="../assets/img/profile.jpg" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#lost-in-translation">Lost in translation</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#how-low-code-can-help">How low-code can help</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html">About me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Collaborating with business using low-code development
+                </h1>
+            </div>
+        </section>
+        <!-- Post content-->
+        <section class="resume-section" id="blog-post-content">
+            <div class="resume-section-content">
+                <p>Has it ever happened to you while coding that you either had to:</p>
+                <ol>
+                    <li>Draw a diagram before starting coding to put ideas into place and have a scheme of how a process
+                        should look like?</li>
+                    <li>Have to draw a diagram to show to a business stakeholder so that you are able to more easily
+                        explain how a process works?</li>
+                </ol>
+                <p>I bet you&#39;ve faced at least one of those situations.</p>
+                <h2 id="lost-in-translation">Lost in translation</h2>
+                <p>There are a few problems caused by such scenarios:</p>
+                <ol>
+                    <li>The biggest one is that some information will inevitably be lost in translation. Some
+                        information will be lost in the intermediate step of drawing a diagram, whether you plan to
+                        write code from it later or you draw it based on existing code.</li>
+                    <li>It takes time and energy to make a more visual model of what needs to be done.</li>
+                </ol>
+                <h2 id="how-low-code-can-help">How low-code can help</h2>
+                <p>One of the biggest advantages of low-code development is <em>visual programming</em> where instead of
+                    writing text you drag and drop or draw elements that eventually do something you expect.</p>
+                <p>Let&#39;s consider the example below:</p>
+                <p><img src="assets/mendix_simple_business_microflow.png" alt="A simple business microflow in Mendix">
+                </p>
+                <p>Are you able to deduce what is done in this flow? (called <em>microflow</em> in <a
+                        href="https://www.mendix.com/">Mendix</a>)</p>
+                <p>I would argue even a non-technical person will understand the gist of it.</p>
+                <p>We get the following benefits of visual programming in this case:</p>
+                <ol>
+                    <li>Both you and the more business-oriented person (but anyone can benefit from this really) will
+                        have a much more intuitive representation of a business process. And it&#39;s an actual piece of
+                        software that runs and is constantly evolving, not some document that stays hidden away in
+                        Confluence and eventually becomes obsolete.</li>
+                    <li>It&#39;s quicker as we can understand drawings much faster than we can read text. </li>
+                    <li>It&#39;s shared because the other person, even if they don&#39;t have a lot of technical skills,
+                        will be able to figure out more or less what they are seeing. It can also be used in
+                        meetings/presentations.</li>
+                    <li>Less information will be lost in translation as there are simply fewer steps for information to
+                        travel.</li>
+                </ol>
+                <p>There are some drawbacks too:</p>
+                <ol>
+                    <li>Poorly implemented microflows would still be difficult to understand.</li>
+                    <li>Some training is still needed. Any visual programming tool still has a <em>notation</em> which,
+                        even if simple, requires at least minimal investment to understand.</li>
+                </ol>
+                <h2 id="conclusion">Conclusion</h2>
+                <p>It&#39;s a simple use case, but stacked up over time, over many interactions can add up to
+                    significantly less time used for such activities and likely producing better results due to less
+                    friction in knowledge sharing.</p>
+                <p>You still need to follow good programming practices with low-code:</p>
+                <ol>
+                    <li>Avoid microflows with too much stuff in it. Just like in normal programming, code that executes
+                        business logic should be quite clear to read and not overloaded with technical calls.</li>
+                    <li>Don&#39;t be afraid of long variable/object names. This is descriptive and most of the time
+                        avoids the need for comments, which tend to not be updated as logic changes.</li>
+                </ol>
+                <p>As low-code tooling continues to evolve, I feel like the gap between developer and business knowledge
+                    will grow ever smaller, benefiting everyone involved.</p>
+            </div>
+        </section>
+
+        <section class="resume-section" id="blog-post-comment">
+            <div class="resume-section-content">
+                <p>Have any ideas you'd like to share on the topic? Write a comment <a target="_blank"
+                        href="https://dev.to/ragutislt/getting-used-to-visual-software-development-9ip">here</a>.</p>
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
