@@ -1,3 +1,6 @@
+---
+dev-to-link: collaborating-with-business-using-low-code-development-fp3
+---
 # Collaborating with business using low-code development
 
 Has it ever happened to you while coding that you either had to:
@@ -18,7 +21,7 @@ One of the biggest advantages of low-code development is _visual programming_ wh
 
 Let's consider the example below:
 
-![A simple business microflow in Mendix](assets/mendix_simple_business_microflow.png)
+![A simple business microflow in Mendix](mendix_simple_business_microflow.png)
 
 Are you able to deduce what is done in this flow? (called _microflow_ in [Mendix](https://www.mendix.com/))
 
