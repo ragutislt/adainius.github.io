@@ -10968,6 +10968,24 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+
+/* CUSTOM CSS */
+
+#page-top .navbar .navbar-toggler {
+  position: fixed;
+  top: var(--bs-navbar-padding-y);
+  right: 1rem;
+}
+
+#navbarResponsiveLinks .navbar-nav .nav-item .nav-link {
+  /* color: white; */
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px; */
+}
+
 /* @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -11001,21 +11019,32 @@ section.resume-section .resume-section-content {
 }
 
 #blog-post-content pre {
-  overflow: visible;
+  overflow: auto;
 }
 
 #blog-post-comment {
   font-size: 1.1rem;
+  margin-top: 5em;
 }
 
 .social-icon svg {
   font-size: 1.5em;
 }
 
-/* For Github Gist embeds, to make them dark */
-body {
-  font: 16px 'Open Sans', sans-serif;
+#blog-index ul {
+  list-style: none;
 }
+
+#blog-index h2 {
+  font-size: calc(1.475rem + 1.7vw);
+}
+
+#page-404 {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+/* For Github Gist embeds, to make them dark */
 body .gist .gist-file {
   border-color: #555 #555 #444
 }

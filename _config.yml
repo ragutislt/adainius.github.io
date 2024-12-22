@@ -1,0 +1,53 @@
+plugins:
+  - jekyll-toc
+  - jekyll-postfiles
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+url: https://adainius.com
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+toc:
+  min_level: 2
+  max_level: 2
+  item_class: nav-item
+  list_class: navbar-nav
+
+collections:
+    posts:
+      output: true
+      permalink: /blog/:title
+
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "blog_layout"
+      toc: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default_layout"
+      toc: true
