@@ -3,6 +3,7 @@ plugins:
   - jekyll-postfiles
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-target-blank
 
 url: https://adainius.com
 

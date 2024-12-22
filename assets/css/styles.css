@@ -11004,7 +11004,6 @@ section.resume-section .resume-section-content {
 }
 
 #blog-post-content img {
-  max-height: 600px;
   max-width: 75rem;
   width: 100%;
   display: block;

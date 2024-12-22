@@ -11,4 +11,5 @@ group :jekyll_plugins do
     gem "kramdown"
     gem "jekyll-sitemap"
     gem "jekyll-seo-tag"
+    gem 'jekyll-target-blank'
 end
