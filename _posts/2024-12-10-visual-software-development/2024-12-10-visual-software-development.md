@@ -1,5 +1,6 @@
 ---
 dev-to-link: getting-used-to-visual-software-development-9ip
+permalink: /blog/visual-software-development.html
 ---
 # Getting used to visual software development
 
