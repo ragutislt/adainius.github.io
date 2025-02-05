@@ -2,7 +2,7 @@ name: Converts Markdown to HTML
 on: workflow_dispatch
 jobs:
   convert-markdown-to-html:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - uses: jaywcjlove/markdown-to-html-cli@v4.1.0
