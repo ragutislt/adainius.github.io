@@ -1,5 +1,5 @@
 ---
-dev-to-link: converting-a-spring-mvc-app-to-mendix-36pc
+dev-to-link: from-code-to-cloud-a-deep-dive-into-mendix-deployments-part-1-1ch9
 title: 'From Code to Cloud: A Deep Dive into Mendix Deployments - Part 1'
 ---
 # From Code to Cloud: A Deep Dive into Mendix Deployments - Part 1
