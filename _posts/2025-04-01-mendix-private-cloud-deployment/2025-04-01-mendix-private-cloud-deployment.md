@@ -1,5 +1,5 @@
 ---
-dev-to-link: from-code-to-cloud-a-deep-dive-into-mendix-deployments-part-2-on-premise-3h80
+dev-to-link: from-code-to-cloud-a-deep-dive-into-mendix-deployments-part-3-private-cloud-450j
 title: 'From Code to Cloud: A Deep Dive into Mendix Deployments - Part 3: Private Cloud'
 ---
 # From Code to Cloud: A Deep Dive into Mendix Deployments - Part 3: Private Cloud
@@ -74,7 +74,7 @@ This does not mean actually creating the cluster in Kubernetes. You must create 
 ### Add a namespace
 
 Next you need to register a namespace where your app will live.
-![Registering a new cluster](./register_namespace.png)
+![Registering a new namespace](./register_namespace.png)
 
 ### Install the Mendix operator
 
