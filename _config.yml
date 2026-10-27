@@ -8,6 +8,7 @@ plugins:
 url: https://adainius.com
 
 markdown: kramdown
+future: false
 highlighter: rouge
 kramdown:
   input: GFM
